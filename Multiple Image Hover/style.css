@@ -26,12 +26,16 @@ main {
 h1 {
   font-size: 6vw;
   margin-left: 10px;
+  position: absolute;
+  z-index: 10;
 }
 .elem > img {
   position: absolute;
-  height: 20vh;
+  height: 200px;
   object-fit: contain;
   object-position: center;
   border-radius: 50%;
   mix-blend-mode: difference;
+  /* transition: all linear 0.1s; */
+  opacity: 0;
 }
